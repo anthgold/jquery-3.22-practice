@@ -8,3 +8,6 @@
 .clickable:hover {
   text-decoration: underline;
 }
+#fadingHeader{
+  display: none;
+}

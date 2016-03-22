@@ -1,7 +1,7 @@
 $(document).ready(function(){
-  $("h1").click(function() {
-    alert("This is a header.");
-    alert("More than one thing");
+  $(".container").click(function() {
+    $("#fadingHeader").slideToggle();
+    // alert("More than one thing");
   });
   $("p").dblclick(function(){
     alert("This is a paragraph");
